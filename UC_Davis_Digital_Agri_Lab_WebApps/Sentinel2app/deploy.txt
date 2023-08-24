@@ -1,0 +1,5 @@
+pip install rsconnect-python
+
+rsconnect add --account dingyi --name dingyi --token 612BB9C5BDF32CA67C07DBCB994D1719 --secret bqK0rDtITV1oUGiGdQJDUEc7Pb2XvsqDn9sQO3xJ
+
+rsconnect deploy shiny "D:\Projects\PythonProjects\UC_Davis_Digital_Agri_Lab_WebApps\Sentinel2app" --name dingyi --title Sentinel2
