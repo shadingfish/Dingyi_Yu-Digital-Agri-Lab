@@ -1,0 +1,13 @@
+astropy==5.2.2
+ipyleaflet==0.17.2
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==2.0.0
+pvlib==0.9.5
+pyephem==9.99
+pytz==2023.3
+shiny==0.3.2
+shinywidgets==0.2.0
+suntime==1.2.5
+timezonefinder==6.2.0
+requests
