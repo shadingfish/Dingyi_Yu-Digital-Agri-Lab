@@ -1,4 +1,5 @@
-ANN.ipynb: build and train the ANN model. \r
+ANN.ipynb: build and train the ANN model. 
+
 Correlation.ipynb: do correlation analysis to compare the simulated dataset and the real-world dataset. \r
 natural_data_EDA.ipynb: Gaussian fitting of collected online datasets. \r
 Predict.ipynb: Predict the canopy trait value of any given spectral data. \r
