@@ -1,0 +1,15 @@
+name=Prospect_Pro
+n_total=5000
+ns=5000
+lop_model=prospectPro
+canopy_architecture_model=sail
+geo_mode=no_geo
+geo_ensembles=1
+splits=1
+max_file_length=5000
+tts=30.0
+tto=0.0
+psi=0.0
+multiplication_factor=10000
+parameters=N;cab;car;anth;cbrown;cw;cm;cp;cbc;LAI;typeLIDF;LIDF;hspot;psoil;tts;tto;psi;LAIu;cd;sd;h
+wavelengths=442.25;492.22;560.31;663.09;703.96;742.38;781.72;833.33;865.82;942.25;1373.67;1609.43;2193.89

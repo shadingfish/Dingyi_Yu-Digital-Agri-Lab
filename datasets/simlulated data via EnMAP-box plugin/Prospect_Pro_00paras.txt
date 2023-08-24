@@ -1,0 +1,21 @@
+name=Prospect_Pro
+lop_model=prospectPro
+canopy_architecture_model=sail
+Cab-Car-Dependency=0# Dependency is False
+N=[1.0463, 2.519, 1.655, 0.298]# Gauss-normal statistical distribution with min=1.046300, max=2.519000, mean=1.655000, std=0.298000
+cab=[0.0, 73.602, 35.986, 14.14]# Gauss-normal statistical distribution with min=0.000000, max=73.602000, mean=35.986000, std=14.140000
+car=[2.35, 16.1617, 9.08447, 2.4609]# Gauss-normal statistical distribution with min=2.350000, max=16.161700, mean=9.084470, std=2.460900
+anth=[0.561, 3.06798, 1.3324, 0.0022856]# Gauss-normal statistical distribution with min=0.561000, max=3.067980, mean=1.332400, std=0.002286
+cbrown=[0.2]# Fixed value = 0.200000
+cw=[0.00202, 0.0184, 0.00983, 0.00286]# Gauss-normal statistical distribution with min=0.002020, max=0.018400, mean=0.009830, std=0.002860
+cm=[0.001493, 0.01242, 0.005354, 0.002343]# Gauss-normal statistical distribution with min=0.001493, max=0.012420, mean=0.005354, std=0.002343
+cp=[0.000272, 0.001364, 0.0007736, 0.0002045]# Gauss-normal statistical distribution with min=0.000272, max=0.001364, mean=0.000774, std=0.000205
+cbc=[0.002082, 0.008669, 0.005168, 0.001376]# Gauss-normal statistical distribution with min=0.002082, max=0.008669, mean=0.005168, std=0.001376
+LAI=[0.1856, 7.13638, 3.82582, 1.6003]# Gauss-normal statistical distribution with min=0.185600, max=7.136380, mean=3.825820, std=1.600300
+typeLIDF=[2]# Fixed value = 2.000000
+LIDF=[30.0, 70.0, 45.0, 15.0]# Gauss-normal statistical distribution with min=30.000000, max=70.000000, mean=45.000000, std=15.000000
+hspot=[0.01, 0.5]# Uniform statistical distribution with min=0.010000, max=0.500000
+psoil=[0.8]# Fixed value = 0.800000
+tts=[30.0]# Fixed value = 30.000000
+tto=[0.0]# Fixed value = 0.000000
+psi=[0.0]# Fixed value = 0.000000
