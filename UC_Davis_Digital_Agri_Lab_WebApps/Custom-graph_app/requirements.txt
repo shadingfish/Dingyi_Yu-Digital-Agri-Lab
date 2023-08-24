@@ -1,0 +1,10 @@
+shiny==0.3.2
+shinywidgets==0.2.0
+geopy
+ipyleaflet==0.17.2
+ipywidgets
+numpy==1.24.3
+pandas==2.0.0
+plotly
+timezonefinder==6.2.0
+requests
