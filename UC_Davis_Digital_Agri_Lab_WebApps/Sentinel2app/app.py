@@ -11,8 +11,8 @@ sys.path.append(parent_dir)
 
 import ee
 # Add Google Service account credential. Authenticates to the Earth Engine servers.
-# service_account = 'earthengine@ee-yudingyi054.iam.gserviceaccount.com'
-# credentials = ee.ServiceAccountCredentials(service_account, 'ee-yudingyi054-64e93ae89dc1.json')
+ee.Authenticate()
+
 
 import math
 from typing import Optional
@@ -178,8 +178,9 @@ def runModel(input_data, scaler_X, scaler_Y, ANNmodel):
     
     return datasets
 
+# Use your own Google Map token
 def getGPS():
-    GPSurl = 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAnHc2yRD53vlzHrj7qQ6OLFiX-iGsqFyM'
+    GPSurl = 'https://www.googleapis.com/geolocation/v1/geolocate?key=Google Map token'
     data = {'homeMobileCountryCode': 310, 'homeMobileNetworkCode': 410, 'considerIp': 'True'}
     response = requests.post(GPSurl, data=json.dumps(data))
     result = json.loads(response.content)
