@@ -491,6 +491,16 @@ def server(input: Inputs, output: Outputs, session: Session):
         ax1.xaxis.set_major_locator(mdates.HourLocator(interval=1))
         ax1.xaxis.set_major_formatter(mdates.DateFormatter('%H'))
 
+        # Limit the x-axis to display only from 6:00 to 20:00
+        start_time = datetime.combine(times[0].date(), time(6, 0))
+        end_time = datetime.combine(times[0].date(), time(20, 0))
+        ax1.set_xlim([start_time, end_time])
+
+        # Add vertical grid lines at specified times
+        specific_hours = [8, 10, 12, 14, 16, 18]
+        for hour in specific_hours:
+            ax1.axvline(datetime.combine(times[0].date(), time(hour, 0)), color='gray', linestyle='-', linewidth=0.5, alpha=0.7)
+
         # Set the legend for both axes
         lines1, labels1 = ax1.get_legend_handles_labels()
         lines2, labels2 = ax2.get_legend_handles_labels()
